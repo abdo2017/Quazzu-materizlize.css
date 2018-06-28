@@ -1,0 +1,102 @@
+.primary-overlay {
+	background: rgba(112,81,176,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+/*header - hero and navbar*/
+.main-header {
+	min-height: 600px;
+	background:  purple;
+	background: url(../img/purple.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.main-header .hero {
+	padding-top: 100px;
+}
+.main-header-inner{
+	min-height: 350px;
+	background:  purple;
+	background: url(../img/purple.jpg);
+	background-position: center;
+	background-size: cover;
+}
+/*active link for the navbar*/
+.active-link {
+	color:#d847f1;
+	font-weight: bold;
+}
+/*hero area rules*/
+.main-header-inner .hero {
+	padding-top: 50px;
+
+}
+/*section developers*/
+.section-developers {
+	position: relative;
+	background: url(../img/code.jpg);
+	background-size: cover;
+	background-position: center;
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333;
+	min-height: 160px;
+}
+/*section podcast*/
+.section-podcast {
+	position: relative;
+	background: url(../img/code.jpg);
+	background-size: cover;
+	background-position: center;
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333;
+	min-height: 160px;
+}
+.section-podcast a.btn {
+	margin-top: 30px
+}
+.section-podcast .primary-overlay {
+	background: rgba(112,81,176,0.9);
+}
+
+/*section testimonial*/
+.section-testimonial .carousel-item p {
+	font-size: 1.5rem !important;
+}
+/* changing the tabs in the solutions page */
+.tabs .indicator {
+	background-color: rgb(170, 20, 235) !important;
+}
+/* button signup on the signup page*/
+.btn-extend  {
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+	.section-podcast ,
+	.section-developers {
+		min-height: 240px;
+	}
+.section-podcast a.btn {
+	margin-top: auto;
+}
+/*li in the footer*/
+footer ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+}
